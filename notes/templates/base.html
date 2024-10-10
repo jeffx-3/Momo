@@ -1,0 +1,68 @@
+{% load static %}
+<header>
+{% block title %}
+<title>Momo| #1 notes app</title>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+</head>
+{% endblock title %}
+    </header>
+
+    <head>
+        <nav>
+           <h3>Momo</h3>
+            <ul>
+                <li> <a href=""> About</a></li>
+                    <li> <a href=""> Contact</a></li>
+                        <li> <a href=""> <span>Login<box-icon name='log-in-circle'></box-icon></span></a></li>
+            </ul>
+        </nav>
+    
+
+</head>
+
+<body>
+  {% block content %}
+  {% endblock content %}
+</body>
+
+{% block footer %}
+<footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="content">
+          <p>Nexusarv is a holistic platform connecting schools, alumni, and associations to build engagement and manage relationships. It supports networking, arranges events, handles membership management, showcases achievements, inspires community, and enthuses future generations to join.</p>
+         
+        </div>
+      </div>
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <box-icon name='map' ></box-icon>
+
+            <span class="text">Nairobi,Kenya</span>
+          </div>
+          <div class="phone">
+            <box-icon name='phone' ></box-icon>
+
+            <span class="text"><a href="contact:+254768508238">+254768508238</a></span>
+          </div>
+        <h2>Socials</h2>
+        <div class="content">
+          <div class="social">
+            <a href="#"><box-icon type='logo' name='twitter'></box-icon></a>
+            <a href="#"><box-icon name='instagram' type='logo' ></box-icon></a>
+            <a href="#"><box-icon name='facebook' type='logo' ></box-icon></a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+   
+    </div>
+  </footer>
+
+{% endblock footer %}

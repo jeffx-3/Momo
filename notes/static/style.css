@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 15px;
+    overflow: visible;
+    
+    background: #01DFC0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+nav ul li{
+    list-style: none;
+    color: black;
+
+}
+nav ul li span{
+    display: inline-flex;
+    align-items: center;
+    border-left: none;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+/*hero-section styling*/
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.hero-section .content{
+    max-width: 50%;
+}
+.hero-section .content h3,
+p{
+    line-height: 1.5;
+    letter-spacing: 0.5;
+}
+.hero-section .content button{
+    border: none;
+    background: #01DFC0;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.hero-section .content button:hover{
+    background: #09f1d3;
+    
+}
+.hero-section .img img {
+    width: 517px;
+  }
+
+  /*footer styling*/
+  footer{
+    position: static;
+    bottom: 0px;
+    width: 100%;
+    background:#01DFC0;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .left .content p{
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  
+  .content box-icon{
+    font-size: 1.4375rem;
+    color: black;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content box-icon:hover{
+    color: white;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
+  .social{
+    display: flex;
+    gap: 1.5rem;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+  }

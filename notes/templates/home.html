@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class ="hero-section">
+    <div class ="content">
+        <h3>Welcome to Momo,Your Personal Notes Hub!</h3>
+            <p>Capture every thought, stay organized, and never miss a moment.
+            Momo is here to make note-taking simple, fast, and delightful. 
+            Start writing, and let your ideas flow! Whether it's a brilliant idea, a daily task, or a special memory, Momo keeps everything at your fingertips.</p>
+           <a href="#"> <button>Get Started</button></a>
+
+    </div>
+    <div class="img">
+        <img src="{% static 'images/notes-concept-illustration.png' %}" alt="note illustration">
+    </div>
+</div>
+{% endblock content %}
