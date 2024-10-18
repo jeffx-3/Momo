@@ -70,6 +70,7 @@ p{
 
   /*footer styling*/
   footer{
+   
     position: static;
     bottom: 0px;
     width: 100%;
@@ -77,6 +78,10 @@ p{
   }
   .main-content{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
   }
   .main-content .box{
     flex-basis: 50%;
