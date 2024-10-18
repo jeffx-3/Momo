@@ -68,6 +68,109 @@ p{
     width: 517px;
   }
 
+
+
+/*note form styling*/
+form{
+  align-items: center;
+}
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for form */
+.note-form {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 600px;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Form Labels */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input Fields */
+.form{
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  justify-items: center;
+  padding: 30px;
+
+}
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+.custom-file-input{
+  display: none;
+}
+.imgbutton{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+button{
+  border-style: none;
+  border-radius: 12px;
+  padding: 15px;
+  background: #09f1d3;
+  
+}
+.btn button{
+  border-style: none;
+  border-radius: 12px;
+  padding: 15px;
+  
+}
+box-icon{
+  display: block;
+  
+}
+
+.form-group{
+  border-radius: 12px;
+  padding: 15px;
+}
+input{
+  border-radius: 12px;
+  padding: 12px;
+  width: 100%;
+}
+text{
+  border-radius: 12px;
+  padding: 200px;
+}
+
+
   /*footer styling*/
   footer{
    
