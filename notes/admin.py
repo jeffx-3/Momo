@@ -5,5 +5,5 @@ from .models import Note
 @admin.register(Note)
 class NoteAdmin(admin.ModelAdmin):
     list_display = ['title', 'content', 'created_at']
-    list_filter = ['created_at']
+    list_filter = ['created_at', 'title']
     search_fields = ['title']
